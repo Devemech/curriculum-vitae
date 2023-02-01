@@ -26,7 +26,7 @@ body{
 
 .container .left_side{
     position: relative;
-    background: #003147;
+    background: #097c91;
     padding: 40px;
 }
 .profileText{
@@ -49,9 +49,9 @@ body{
 .profileText .imgBx img{
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    left: -105%;
+    width: 600px;
+    height: 410px;
     object-fit: cover;
 }
 .profileText h2{
@@ -127,7 +127,7 @@ margin: 15px;
     top: 0;
     left: 0;
     height: 100%;
-    background: rgb(39, 160, 216);
+    background: rgb(219, 207, 207);
 }
 .container .right_side{
     position: relative;
