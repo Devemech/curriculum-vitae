@@ -148,3 +148,34 @@ margin: 15px;
     margin-left: 50%;
     color: gray;
 }
+@media screen and (max-width:480px) {
+    
+    .container{
+        position: relative;
+        width: auto;
+        max-width: auto;
+        min-height: auto;
+        margin: 10%;
+        
+    
+    }
+    .title2{
+        margin: 10%;
+    } 
+    .contactInfo ul li .icon{
+    
+        width: 5%;
+        font-size: 70%;
+        margin-top: 5%;
+    }
+    
+ .contactInfo ul li .text1{
+           
+     margin-top: 5%;
+
+    }
+
+ }
+    
+
+
