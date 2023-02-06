@@ -151,16 +151,18 @@ margin: 15px;
 @media screen and (max-width:480px) {
     
     .container{
+        display: block;
         position: relative;
-        width: auto;
-        max-width: auto;
-        min-height: auto;
+        width: 80%;
+        max-width: 70%;
+        min-height: 30%;
         margin: 10%;
         
     
     }
     .title2{
         margin: 10%;
+        font-size: 15px;
     } 
     .contactInfo ul li .icon{
     
@@ -172,7 +174,13 @@ margin: 15px;
  .contactInfo ul li .text1{
            
      margin-top: 5%;
+     
 
+    }
+
+    p{
+        text-align: left;
+        
     }
 
  }
