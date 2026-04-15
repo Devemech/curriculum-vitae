@@ -2,134 +2,176 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" /> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Perfil profesional</title>
-
+    <title>Ruber Urbina - Desarrollador Frontend</title>
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts & Font Awesome (opcional, pero lo dejamos por si acaso) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-
 <body>
-    <div class="container"> 
-        <div class="left_side">
-        <div class="profileText">
-            <div class="imgBx">
-                <img src="img1.jpeg">
+<div class="cv-card">
+    <div class="hero">
+        <div class="hero-container">
+            <!-- Espacio para foto -->
+            <div class="photo-placeholder">
+                <div class="no-photo">📷</div>
+                <!-- Si usas imagen, reemplaza el div anterior por: <img src="tu-foto.jpg" alt="Ruber"> -->
             </div>
-            <h2>Ruber Urbina<br><span>Developer Web</span></h2>
+            <div class="hero-text">
+                <h1>Ruber Armando <span>Urbina</span></h1>
+                <div class="tagline">Desarrollador Frontend · Ingeniero Mecánico · Análisis de Datos</div>
+                <div class="contact-bar">
+                    <div class="contact-item">✉️ urbinaruber@gmail.com</div>
+                    <div class="contact-item">📞 (11) 6813-1480</div>
+                    <div class="contact-item">📍 Buenos Aires / Venezuela</div>
+                </div>
             </div>
-
-             <div class="contactInfo">
-                <h3 class="title">Informacion de contacto</h3>
-                <ul>
-                    <li>
-                        <span class="icon"><i class="fa-sharp fa-solid fa-phone"></i></span>
-                        <span class="text">Cell phone: +11 73689297</span>
-                    </li>
-                    <li>
-                        <span class="icon"><i class="fa-sharp fa-solid fa-envelope"></i></span>
-                        <span class="text">urbinaruber@gmail.com</span>
-                    </li>
-                    <li>
-                        <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
-                        <a class="text1" href="https://www.linkedin.com/in/ruber-urbina-developer/">https://www.linkedin.com/in/ruber-urbina-developer/</a>
-                    </li>
-
-                    <li>
-                        <span class="icon"><i class="fa-brands fa-github"></i></span>
-                         <a class="text1" href="https://github.com/Devemech">https://github.com/Devemech</a>
-                  
-                <li>
-                    <span class="icon"><i class="fa-sharp fa-solid fa-location-dot"></i></span>
-                    <span class="text">Coghlan</span>
-                </li>    
-                </ul>
-             </div>
-
-                <div class="contactInfo education">
-                  <h3 class="title">Estudios</h3>
-                         <ul>
-                            <li>
-                            <h4>Ingeniero Mecanico</h4>
-                            <h4>Universidad de Oriente</h4>
-                         </li>
-                        <li>
-                            <h4>Tester de software manual</h4>
-                            <h4>Edutin</h4>
-                        </li>
-                    <li>
-                        <h4>Programador</h4>
-                        <h4>Alura G4</h4>
-                    </li>
-                  </ul>
-                </div>  
-             
-             <div class="contactInfo lenguage">
-                <h3 class="title">Lenguages</h3>
-                <ul>
-                    <li>
-                        <span class="text">English</span>
-                        <span class="percent">
-                            <div style="width: 30%;"></div>
-                        </span>
-                    </li>
-                    <li>
-                        <span class="text">Español</span>
-                        <span class="percent"><div style="width: 100%;"></div></span>
-                        
-                    </li>
-                    
-                </ul>
-             </div>
         </div>
-        <div class="rigth_side">
-        <div class="about">
-            <h2 class="title2">Perfil</h2>
-            <p>Ingeniero mecanico  con conocimientos en el diseño de equipos estaticos.
-                Supervision de mantenimiento en equipos rotativos, manejo de herramientas
-                informaticas. Con un enfoque al crecimiento progresivo con ganas de seguir 
-                creciendo profesionalmente.
-            </p>
-            <h2 class="title2">Experiencia</h2>
+    </div>
 
-            <div class="datos">
-            
-                <p>Sinovensa s.a</p>
-
-                <p class="fecha">Nov 2016-Jul 2017</p>
-
-            </div>
-               
-            <p>Pasantías Supervisor Mantenimiento Mecánico</p>
-            <div>
-                <h2 class="title2">Cursos</h2>
-                <ul>
-                    <li>Desarrollo de Aplicaciones Web</li>
-                    <li>ingles Británico I</li>
-                    <li>Fundamentos de la programación</li>
-                    <li>Tester de software manual</li>
-                    <li>Bombas Centrífugas</li>
-                    <li>Evaluación de corrosión</li>
-                </ul>
+    <div class="two-columns">
+        <!-- Columna izquierda: habilidades, certificaciones, idiomas -->
+        <div class="sidebar">
+            <div class="section">
+                <div class="section-title">💻 Frontend</div>
+                <div class="skill-list">
+                    <span class="skill-chip">HTML5 & CSS3</span>
+                    <span class="skill-chip">JavaScript (ES6+)</span>
+                    <span class="skill-chip">React</span>
+                    <span class="skill-chip">Flexbox / Grid</span>
+                    <span class="skill-chip">Figma / Trello</span>
+                    <span class="skill-chip">Git & GitHub</span>
+                </div>
             </div>
 
-            <h2 class="title2">Habilidades</h2>
-            <div>
-                <ul style="list-style-type: circle;">
-                    <li>Capacidad para trabajar en equipo</li>
-                    <li>Adaptación al cambio</li>
-                    <li>Paciente</li>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                </ul>
+            <div class="section">
+                <div class="section-title">⚙️ Otras competencias</div>
+                <div class="skill-list">
+                    <span class="skill-chip">Inspección técnica vehicular</span>
+                    <span class="skill-chip">Mantenimiento industrial</span>
+                    <span class="skill-chip">Análisis de datos (Excel, Power BI)</span>
+                    <span class="skill-chip">Software de medición</span>
+                    <span class="skill-chip">Metodologías ágiles</span>
+                </div>
             </div>
-            
+
+            <div class="section">
+                <div class="section-title">📜 Certificaciones</div>
+                <div class="cert-item"><strong>Front-end Developer</strong> · Oracle Next Education (2023)</div>
+                <div class="cert-item"><strong>Inglés Británico Nivel 1</strong> · Sec (2022)</div>
+                <div class="cert-item"><strong>Bombas Centrífugas</strong> · Sulzer (2018)</div>
+                <div class="cert-item"><strong>Evaluación de Corrosión</strong> · UDO (2012)</div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">🌐 Idiomas</div>
+                <div class="lang-item"><strong>Español</strong> · Nativo</div>
+                <div class="lang-item"><strong>Inglés técnico</strong> · Intermedio (lectura de documentación)</div>
+            </div>
         </div>
+
+        <!-- Columna derecha: perfil, experiencia, proyectos, educación -->
+        <div class="main">
+            <div class="section">
+                <div class="section-title">👤 Perfil profesional</div>
+                <p class="profile-text">Ingeniero Mecánico con formación autodidacta en desarrollo frontend. Combino la lógica analítica y la experiencia en inspección con la creatividad para construir interfaces funcionales y responsivas. Motivado por aprender nuevas tecnologías y aplicarlas en entornos IT. Adaptable, orientado a resultados y con capacidad de integrar equipos multidisciplinarios.</p>
+            </div>
+
+            <div class="section">
+                <div class="section-title">💼 Experiencia actual</div>
+                <div class="exp-item">
+                    <div class="exp-header">
+                        <span class="exp-title">Inspector Mecánico</span>
+                        <span class="exp-date">Abr 2023 – Actual</span>
+                    </div>
+                    <div class="exp-company">Coltec Ciudadela</div>
+                    <div class="exp-desc">
+                        <ul>
+                            <li>Evaluación de seguridad vehicular y manejo de software de medición, generando reportes técnicos.</li>
+                            <li>Verificación de normativas de diseño en vehículos de carga y transporte.</li>
+                            <li>Análisis de datos operacionales para optimización de procesos de inspección.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">🚀 Proyectos de desarrollo frontend</div>
+                <div class="exp-item">
+                    <div class="exp-header">
+                        <span class="exp-title">Encriptador de texto</span>
+                        <span class="exp-date">2023</span>
+                    </div>
+                    <div class="exp-company">Alura Latam - Oracle Next Education</div>
+                    <div class="exp-desc">
+                        <ul>
+                            <li>Construcción de una app con JavaScript, HTML y CSS, usando Trello y Figma.</li>
+                            <li>Implementación de lógica de encriptación/desencriptación, interfaz responsive.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-header">
+                        <span class="exp-title">Portafolio personal</span>
+                        <span class="exp-date">2023</span>
+                    </div>
+                    <div class="exp-company">Basado en repositorio GitHub</div>
+                    <div class="exp-desc">
+                        <ul>
+                            <li>Creación de sitio web portafolio adaptado a diferentes resoluciones con Flexbox y Grid.</li>
+                            <li>Despliegue en GitHub Pages.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-header">
+                        <span class="exp-title">Formulario dinámico con React</span>
+                        <span class="exp-date">2023</span>
+                    </div>
+                    <div class="exp-company">Práctica autodidacta</div>
+                    <div class="exp-desc">
+                        <ul>
+                            <li>Diseño de componente funcional con manejo de estado y validación de campos.</li>
+                            <li>Uso de hooks (useState, useEffect) para simular interacción con API.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-header">
+                        <span class="exp-title">Páginas responsivas</span>
+                        <span class="exp-date">2023</span>
+                    </div>
+                    <div class="exp-company">FreeCodeCamp</div>
+                    <div class="exp-desc">
+                        <ul>
+                            <li>Desarrollo de layouts adaptables a móvil, tablet y desktop utilizando Flexbox y media queries.</li>
+                            <li>Implementación de buenas prácticas de accesibilidad y semántica HTML.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">🎓 Educación</div>
+                <div class="exp-item">
+                    <div class="exp-header">
+                        <span class="exp-title">Ingeniería Mecánica</span>
+                        <span class="exp-date">2007 – 2016</span>
+                    </div>
+                    <div class="exp-company">Universidad de Oriente (UDO) – Venezuela</div>
+                    <div class="exp-desc">
+                        Título otorgado. Formación en análisis de sistemas, termofluidos, materiales y gestión de proyectos.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
 
         
 
-        </div>
-    </div>
-</body>
-</html>
+     
